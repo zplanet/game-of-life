@@ -1,0 +1,33 @@
+
+.grid {
+    display: table;
+    border: 1px solid grey;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    width: 5px;
+    height: 5px;
+    border: 1px solid grey;
+}
+
+.live {
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+}
+
+.header * {
+    margin-left: 20px;
+}
+
+.off {
+    display: none;
+}
